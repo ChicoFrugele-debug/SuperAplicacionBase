@@ -1,0 +1,55 @@
+<ion-content [fullscreen]="true">
+    <div class="container">
+      <div class="contenido">
+      <div class="centro">
+        <div class="mes">
+          <h2>Mas cercano</h2>
+          <div class="info">
+            <ion-icon name="flame"></ion-icon>
+            <div class="texto">
+              <h2>Susana Hernandez</h2>
+              <p>Se encuentra cerca</p>
+            </div>
+          </div>
+        </div>
+        <div class="mes">
+          <h2>No tan cercano</h2>
+          <div class="info">
+            <ion-icon name="flame"></ion-icon>
+            <div class="texto">
+              <h2>Hombre piola</h2>
+              <p>Se encuentra cerca </p>
+            </div>
+          </div>
+          <div class="info">
+            <ion-icon name="flame"></ion-icon>
+            <div class="texto">
+              <h2>Maximiliano Cifuente</h2>
+              <p>Se encuentra cerca</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="menu">
+        <div class="boton">
+          <ion-icon name="home"></ion-icon>
+          <h3>Home</h3>
+        </div>
+        <div class="boton" [routerLink]="['/viajes']">
+          <ion-icon name="car-sport-outline"></ion-icon>
+          <h3>waller</h3>
+        </div>
+        <div class="boton" [routerLink]="['/m']">
+          <ion-icon name="map"></ion-icon>
+          <button></button>
+          <h3>mapa</h3>
+        </div>
+        <div class="boton" [routerLink]="['/perfil']">
+          <ion-icon name="person-circle"></ion-icon>
+          <button></button>
+          <h3>perfil</h3>
+        </div>
+      </div>
+    </div>
+  </ion-content>

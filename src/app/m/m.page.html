@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true">
+  <h1>Se encuentra en</h1>
+  <capacitor-google-map id="map"></capacitor-google-map><div class="todo">
+    
+  </div>
+  <div class="menu">
+    <div class="boton" [routerLink]="['/home']">
+      <ion-icon name="home"></ion-icon>
+      <button></button>
+      <h3>Home</h3>
+    </div> 
+    <div class="boton" [routerLink]="['/viajes']">
+      <ion-icon name="car-sport-outline"></ion-icon>
+      <button></button>
+      <h3>Viajes</h3>
+    </div> 
+    <div class="boton" [routerLink]="['/m']">
+      <ion-icon name="map"></ion-icon>
+      <button></button>
+      <h3>mapa</h3>
+    </div> 
+    <div class="boton" [routerLink]="['/perfil']">
+      <ion-icon name="person-circle"></ion-icon>
+      <button></button>
+      <h3>perfil</h3>
+    </div> 
+  </div>
+</ion-content>

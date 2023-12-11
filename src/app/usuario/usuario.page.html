@@ -1,0 +1,35 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+     <div id="contenido">
+      <div class="filtro">
+        <p>Filtrar</p>
+        <input type="text">
+      </div>
+     <table>
+       <tr>
+         <th>ID</th>
+         <th>HORA</th>
+         <th>CAPACIDAD</th>
+         <th>PRECIO</th>
+         <th>DESTINO</th>
+       </tr>
+       <tr *ngFor="let viaje of viajes">
+         <td>{{viaje.id}}</td>
+         <td>{{viaje.hora}}</td>
+         <td>{{viaje.capacidad}}</td>
+         <td>{{viaje.precio}}</td>
+         <td>{{viaje.destino}}</td>
+         <ion-icon name="heart" aria-hidden="true"></ion-icon>
+
+       </tr>
+     </table>
+     <button [routerLink]="['/mapa1']" class="bu">
+       volver
+     </button> 
+     <button [routerLink]="['/viajes']" class="b">
+       Cancelar
+     </button>
+   </div>
+  </div>
+ 
+</ion-content>

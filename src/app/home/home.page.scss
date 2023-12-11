@@ -1,0 +1,76 @@
+.contenido{
+  min-height:90vh;
+  width: 100%;
+}
+
+
+.menu{
+  min-height: 10vh;
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  filter: drop-shadow(0px -3px 4px #a9a9a9);
+}
+
+.boton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  ion-icon{
+    font-size: 1.6rem;
+    color: #A3A3A3;
+  }
+  h3{
+    font-size: .9rem;
+    margin: 0;
+    color: #A3A3A3;
+  }
+}
+.arriba{
+  width: 100%;
+  margin-top: 4%;
+  justify-content: left;
+  ion-icon{
+      width: 1%;
+      font-size: 120%;
+  }
+}
+.centro{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mes{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5%;
+  h2{
+    font-size: 1.1rem;
+    margin: 5px 0px;
+  }
+}
+.info{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  border-bottom: 4px white solid;
+  ion-icon{
+    font-size: 1.5rem;
+    background-color: purple;
+    border-radius: 50%;
+    padding: 8px;
+  }
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  p{
+    color: #797979;
+    font-size: .8rem;
+  }
+}

@@ -1,0 +1,35 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+  <div class="todo">
+    <div class="panel">
+     <ion-button [routerLink]="['/privacidad']">privacidad</ion-button>
+     <ion-button [routerLink]="['/seguridad']">seguridad</ion-button>
+     <ion-button [routerLink]="['/login']">cerrar sesion</ion-button>
+    </div>
+    <div class="menu">
+      <div class="boton" [routerLink]="['/home']">
+        <ion-icon name="home"></ion-icon>
+        <button></button>
+        <h3>Home</h3>
+      </div> 
+      <div class="boton" [routerLink]="['/viajes']">
+        <ion-icon name="car-sport-outline"></ion-icon>
+        <button></button>
+        <h3>Viajes</h3>
+      </div> 
+      <div class="boton" [routerLink]="['/m']">
+        <ion-icon name="map"></ion-icon>
+        <button></button>
+        <h3>mapa</h3>
+      </div> 
+      <div class="boton" [routerLink]="['/perfil']">
+        <ion-icon name="person-circle"></ion-icon>
+        <button></button>
+        <h3>perfil</h3>
+      </div> 
+    </div>
+  </div>
+</div>
+  
+  
+</ion-content>

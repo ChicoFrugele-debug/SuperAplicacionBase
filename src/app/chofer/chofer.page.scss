@@ -1,0 +1,40 @@
+#contenido{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0px 5%;
+}
+td, th{
+    background: #000000;
+    border: 1px #c9c9c9 solid;
+    color: #ffffff;
+    font-size: .8rem;
+}
+
+.b{
+    margin-top: 5%;
+    background-color: #0631f3;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.b:hover{
+    background-color: rgb(10, 10, 10);
+   }
+
+.bu{
+    margin-top: 25%;
+    background-color: #0631f3;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.bu:hover{
+    background-color: rgb(10, 10, 10);
+   }
